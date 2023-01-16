@@ -1,7 +1,7 @@
 module EventMachine
   module Synchrony
 
-    class FiberIterator < EM::Synchrony::Iterator
+    class FiberIterator < Iterator
 
       # execute each iterator block within its own fiber
       # and auto-advance the iterator after each call
